@@ -1,0 +1,10 @@
+#bg-image{
+    background-image: url(img/e.jpeg);
+    height: 100vh;
+    background-size:cover;
+    
+}
+#bg-text{
+    background-color:rgba(144,	147,	166, 0.1);
+    
+}
