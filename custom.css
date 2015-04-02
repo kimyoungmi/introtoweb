@@ -10,5 +10,25 @@
     background-color:rgba(144,	136, 166, 0.1);
     
 }
+h3{
+    color:#A9A9A9;
+}
+
+#founder{
+    background-color: white;
+}
+#founder>div:first-child{
+    margin-top: 20%;
+}
+h1{
+    font-size: 1.6em;
+    margin-top: 60%
+}
+h3{
+    font-size: 1.2em;
+    margin-top: 30%
+}
+
+
 
 
