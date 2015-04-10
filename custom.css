@@ -1,47 +1,67 @@
-#bg-image{
+#bg-image {
     background-image: url(img/e.jpeg);
     height: 100vh;
-    background-size:cover;
+    background-size: cover;
     background-position: center;
     background-attachment: fixed;
-    
-}
-#bg-text{
-    background-color:rgba(144,	136, 166, 0.1);
-    
-}
-h3{
-    color:#A9A9A9;
 }
 
-#founder{
+#bg-text {
+    background-color: rgba(144, 136, 166, 0.1);
+}
+
+h3 {
+    color: #A9A9A9;
+}
+
+#founder {
     background-color: white;
 }
-#founder>div:first-child{
+
+#founder>div:first-child {
     margin-top: 20%;
 }
-h1{
+
+h1 {
     font-size: 1.6em;
     margin-top: 60%
 }
-h3{
+
+h3 {
     font-size: 1.2em;
     margin-top: 30%
 }
-
-#work .bg-orange{
-    background-color: #f00d05;
+#work #portfolio img {
+    margin-top: 15%
 }
-#work .bg-black{
+
+
+
+#work .hide-title>h5 {
+    opacity: 0;
+    position: absolute;
+    top: 45%;
+    left: 33%;
+    color: black;
+    font-size: 1.3em;
+}
+
+#work #portfolio img:hover {
+    -webkit-filter: blur(4px) invert(1) opacity(0.3);
+}
+
+#work #portfolio img {
+    transition: 1.0s;
+    transition-timing-function: ease-in-out;
+}
+
+#work .bg-black {
+    background-color: grey;
+    padding: 25px;
+    position: relative;
+    margin: 15px;
+}
+
+#work .bg-orange {
     background-color: black;
-    
 }
-
-#work .bg-brown{
-    background-color: CC8C3C;
-    
-}
-
-
-
-
